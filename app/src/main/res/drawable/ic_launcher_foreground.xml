@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.45"
+        android:scaleY="0.45"
+        android:translateX="30"
+        android:translateY="30">
+        <!-- Bell circle -->
+        <path
+            android:fillColor="#1B3251"
+            android:pathData="M50,25 a25,25 0 1,0 0,50 a25,25 0 1,0 0,-50"/>
+        <!-- Bell icon -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M50,35 C45,35 41,39 41,44 L41,51 L37,55 L63,55 L59,51 L59,44 C59,39 55,35 50,35 M50,65 C52,65 54,63 54,61 L46,61 C46,63 48,65 50,65"/>
+        
+        <!-- Network icon -->
+        <path
+            android:fillColor="#1B3251"
+            android:pathData="M85,45 C83,45 81,46 80,48 L74,48 C73,48 72,49 72,50 C72,51 73,52 74,52 L80,52 C81,54 83,55 85,55 C88,55 90,53 90,50 C90,47 88,45 85,45"/>
+        
+        <!-- Connection lines -->
+        <path
+            android:strokeColor="#1B3251"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M75,50 L35,50 L35,70 M35,50 L35,30"/>
+        <!-- Connection dots -->
+        <path
+            android:fillColor="#1B3251"
+            android:pathData="M35,30 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"/>
+        <path
+            android:fillColor="#1B3251"
+            android:pathData="M35,70 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"/>
+    </group>
+</vector>
